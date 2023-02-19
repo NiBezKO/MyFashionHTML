@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230217235003"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20230217235003">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230219232839"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230219232839">
     <title>MY fashion</title>
 </head>
   <body>
@@ -31,7 +31,7 @@
           <a href="index.html" class="nav-list__link">Главная</a>
         </li>
         <li class="nav-list__item">
-          <a href="index.html" class="nav-list__link">Магазин</a>
+          <a href="Shop.html" class="nav-list__link">Магазин</a>
         </li>
         <li class="nav-list__item">
           <a href="About.html" class="nav-list__link">О бренде</a>
@@ -53,12 +53,14 @@
     <div class="burger">
       <span class="burger__content"></span>
     </div>
-    <div class="cart">
-      <svg class="cart__svg" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M19,7H16V6A4,4,0,0,0,8,6V7H5A1,1,0,0,0,4,8V19a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8A1,1,0,0,0,19,7ZM10,6a2,2,0,0,1,4,0V7H10Zm8,13a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H8v1a1,1,0,0,0,2,0V9h4v1a1,1,0,0,0,2,0V9h2Z" />
-      </svg>
-      <span class="cart__count">3</span>
+    <div class="header__cart header-cart">
+      <a href="Cart.html">
+        <svg class="header-cart__svg" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19,7H16V6A4,4,0,0,0,8,6V7H5A1,1,0,0,0,4,8V19a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V8A1,1,0,0,0,19,7ZM10,6a2,2,0,0,1,4,0V7H10Zm8,13a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V9H8v1a1,1,0,0,0,2,0V9h4v1a1,1,0,0,0,2,0V9h2Z" />
+        </svg>
+      </a>
+      <span class="header-cart__count">3</span>
     </div>
   </div>
 </header>
@@ -81,97 +83,105 @@
             </div>
             <ul class="list">
               <li class="list__item list-item">
-                <div class="list-item__top">
-                  <img
-                    src="	https://img.ostin.com/upload/mdm/media_content/resize/dd0/293_387_5c45/73158610299.jpg"
-                    alt="рубашка"
-                    class="list-item__img" />
-                  <div class="list-item__content">
-                    <svg
-                      class="row"
-                      width="32"
-                      height="24"
-                      viewBox="0 0 32 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
-                    </svg>
+                <a href="FullItem.html">
+                  <div class="list-item__top">
+                    <img
+                      src="	https://img.ostin.com/upload/mdm/media_content/resize/dd0/293_387_5c45/73158610299.jpg"
+                      alt="рубашка"
+                      class="list-item__img" />
+                    <div class="list-item__content">
+                      <svg
+                        class="row"
+                        width="32"
+                        height="24"
+                        viewBox="0 0 32 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
-                <h3 class="list-item__title">Базовая мужская рубашка</h3>
+                </a>
                 <div class="list-item__inner">
+                  <h3 class="list-item__title">Базовая мужская рубашка</h3>
                   <span class="list-item__price">Цена: 1900</span>
                   <button class="list-item__btn">В корзину</button>
                 </div>
               </li>
               <li class="list__item list-item">
-                <div class="list-item__top">
-                  <img
-                    src="	https://img.ostin.com/upload/mdm/media_content/resize/2e4/293_387_7d91/62757820299.jpg"
-                    alt=""
-                    class="list-item__img" />
-                  <div class="list-item__content">
-                    <svg
-                      class="row"
-                      width="32"
-                      height="24"
-                      viewBox="0 0 32 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
-                    </svg>
+                <a href="FullItem.html">
+                  <div class="list-item__top">
+                    <img
+                      src="	https://img.ostin.com/upload/mdm/media_content/resize/2e4/293_387_7d91/62757820299.jpg"
+                      alt=""
+                      class="list-item__img" />
+                    <div class="list-item__content">
+                      <svg
+                        class="row"
+                        width="32"
+                        height="24"
+                        viewBox="0 0 32 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
-                <h3 class="list-item__title">Укороченная толстовка из френч-терри</h3>
+                </a>
                 <div class="list-item__inner">
+                  <h3 class="list-item__title">Укороченная толстовка из френч-терри</h3>
                   <span class="list-item__price">Цена: 1900</span>
                   <button class="list-item__btn">В корзину</button>
                 </div>
               </li>
               <li class="list__item list-item">
-                <div class="list-item__top">
-                  <img
-                    src="	https://img.ostin.com/upload/mdm/media_content/resize/6ff/293_387_1e9f/74707000299.jpg"
-                    alt=""
-                    class="list-item__img" />
-                  <div class="list-item__content">
-                    <svg
-                      class="row"
-                      width="32"
-                      height="24"
-                      viewBox="0 0 32 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
-                    </svg>
+                <a href="FullItem.html">
+                  <div class="list-item__top">
+                    <img
+                      src="	https://img.ostin.com/upload/mdm/media_content/resize/6ff/293_387_1e9f/74707000299.jpg"
+                      alt=""
+                      class="list-item__img" />
+                    <div class="list-item__content">
+                      <svg
+                        class="row"
+                        width="32"
+                        height="24"
+                        viewBox="0 0 32 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
-                <h3 class="list-item__title">Юбка-шорты из укороченной поливискозы</h3>
+                </a>
                 <div class="list-item__inner">
+                  <h3 class="list-item__title">Юбка-шорты из укороченной поливискозы</h3>
                   <span class="list-item__price">Цена: 1999</span>
                   <button class="list-item__btn">В корзину</button>
                 </div>
               </li>
               <li class="list__item list-item">
-                <div class="list-item__top">
-                  <img
-                    src="	https://img.ostin.com/upload/mdm/media_content/resize/0b8/293_387_b985/70927250299.jpg"
-                    alt=""
-                    class="list-item__img" />
-                  <div class="list-item__content">
-                    <svg
-                      class="row"
-                      width="32"
-                      height="24"
-                      viewBox="0 0 32 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
-                    </svg>
+                <a href="FullItem.html">
+                  <div class="list-item__top">
+                    <img
+                      src="	https://img.ostin.com/upload/mdm/media_content/resize/0b8/293_387_b985/70927250299.jpg"
+                      alt=""
+                      class="list-item__img" />
+                    <div class="list-item__content">
+                      <svg
+                        class="row"
+                        width="32"
+                        height="24"
+                        viewBox="0 0 32 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
-                <h3 class="list-item__title">Джемпер с вискозой</h3>
+                </a>
                 <div class="list-item__inner">
+                  <h3 class="list-item__title">Джемпер с вискозой</h3>
                   <span class="list-item__price">Цена: 2000</span>
                   <button class="list-item__btn">В корзину</button>
                 </div>
@@ -233,7 +243,7 @@
                       d="M56.6611 41.349L50.7656 37.1565C51.7557 33.5159 51.7501 29.6761 50.7493 26.0383L56.6643 21.8978L51.9421 13.7273L45.3641 16.7368C42.7053 14.0589 39.3762 12.144 35.7246 11.1923L35.0973 4.00004H25.6528L25.0256 11.1923C21.3747 12.1453 18.0467 14.0613 15.3893 16.74L8.80807 13.7305L4.08907 21.901L10.0041 26.0415C9.00281 29.678 8.99608 33.5166 9.98457 37.1565L4.08907 41.349L8.80807 49.4805L15.3893 46.4678C18.0471 49.1453 21.375 51.0602 25.0256 52.0123L25.6528 59.2045H35.0973L35.7246 52.0123C39.3751 51.06 42.703 49.1452 45.3608 46.4678L51.9421 49.4805L56.6643 41.3523L56.6611 41.349ZM36.8913 0.701295C37.3097 0.700852 37.712 0.861758 38.0147 1.15052C38.3174 1.43928 38.4971 1.83365 38.5163 2.25154L39.0948 8.8653C41.4973 9.78084 43.7386 11.0732 45.7346 12.6938L51.7471 9.88904C52.1184 9.69797 52.5491 9.65721 52.9497 9.77522C53.3503 9.89322 53.6901 10.1609 53.8986 10.5228L60.4148 21.8003C60.6242 22.1618 60.6863 22.59 60.5883 22.9961C60.4902 23.4022 60.2396 23.7549 59.8883 23.981L54.4478 27.79C54.8638 30.3835 54.8508 32.9673 54.4511 35.4568L59.8883 39.2593C60.2404 39.4855 60.4917 39.8388 60.5898 40.2457C60.6878 40.6525 60.6252 41.0815 60.4148 41.4433L53.8986 52.6785C53.6901 53.0404 53.3503 53.3081 52.9497 53.4261C52.5491 53.5441 52.1184 53.5034 51.7471 53.3123L45.7346 50.5075C43.7781 52.1 41.5486 53.4 39.0948 54.3393L38.5163 60.953C38.4963 61.3704 38.3162 61.7639 38.0136 62.052C37.711 62.3401 37.3091 62.5005 36.8913 62.5H23.8588C23.441 62.5005 23.0391 62.3401 22.7365 62.052C22.4339 61.7639 22.2539 61.3704 22.2338 60.953L21.6553 54.3393C19.2527 53.4226 17.0114 52.1291 15.0156 50.5075L9.00307 53.3123C8.63177 53.5046 8.20063 53.5464 7.7993 53.429C7.39798 53.3116 7.05737 53.0439 6.84832 52.6818L0.335319 41.44C0.125948 41.0786 0.0638348 40.6503 0.161875 40.2442C0.259915 39.8382 0.510576 39.4854 0.861819 39.2593L6.29907 35.4535C5.8919 32.9142 5.8919 30.3262 6.29907 27.7868L0.86507 23.981C0.514687 23.755 0.264624 23.4028 0.166623 22.9975C0.0686222 22.5922 0.130183 22.1647 0.338569 21.8035L6.84507 10.5228C7.05359 10.1601 7.39396 9.89179 7.79533 9.77374C8.1967 9.65569 8.62814 9.69699 8.99982 9.88904L15.0123 12.6938C17.0083 11.0732 19.2496 9.78084 21.6521 8.8653L22.2306 2.25154C22.2498 1.83365 22.4295 1.43928 22.7322 1.15052C23.0349 0.861758 23.4372 0.700852 23.8556 0.701295H36.8881H36.8913ZM30.3751 20.25C33.3919 20.25 36.2852 21.4485 38.4184 23.5817C40.5516 25.7149 41.7501 28.6082 41.7501 31.625C41.7501 34.6419 40.5516 37.5352 38.4184 39.6684C36.2852 41.8016 33.3919 43 30.3751 43C27.3582 43 24.465 41.8016 22.3317 39.6684C20.1985 37.5352 19.0001 34.6419 19.0001 31.625C19.0001 28.6082 20.1985 25.7149 22.3317 23.5817C24.465 21.4485 27.3582 20.25 30.3751 20.25ZM30.3751 23.5C28.2202 23.5 26.1536 24.3561 24.6298 25.8798C23.1061 27.4035 22.2501 29.4702 22.2501 31.625C22.2501 33.7799 23.1061 35.8466 24.6298 37.3703C26.1536 38.894 28.2202 39.75 30.3751 39.75C32.53 39.75 34.5966 38.894 36.1203 37.3703C37.644 35.8466 38.5001 33.7799 38.5001 31.625C38.5001 29.4702 37.644 27.4035 36.1203 25.8798C34.5966 24.3561 32.53 23.5 30.3751 23.5Z"
                       fill="black" />
                   </svg>
-                  <h3 class="advantages-list__title">Качество</h3>
+                  <h3 class="advantages-list__title">Скорость</h3>
                   <p class="advantages-list__description">
                     Благодаря отлаженной системе мы можем отшивать до 20-ти единиц продукции в наших
                     собственных цехах
@@ -261,7 +271,7 @@
                       d="M38.1964 59.4667C37.3117 59.4667 36.4166 59.367 35.5294 59.1648L13.4269 54.0986C12.4714 53.8991 11.5815 53.4108 10.857 52.6863C9.86473 51.6941 9.3161 50.3737 9.3161 48.9746C9.3161 47.5728 9.86473 46.2551 10.857 45.2628C11.5395 44.5803 12.369 44.1105 13.2641 43.8926C13.2904 43.8821 13.3166 43.8768 13.3429 43.8689L24.4729 41.1993C25.179 41.0234 25.8877 41.4671 26.0557 42.1706C26.2237 42.8767 25.788 43.5828 25.0845 43.7534L14.0306 46.4047C13.9965 46.4152 13.9624 46.4257 13.9256 46.4336C13.4846 46.5307 13.0646 46.7696 12.7129 47.1213C12.2167 47.6175 11.9411 48.2763 11.9411 48.9772C11.9411 49.6781 12.2141 50.3369 12.7129 50.8331C13.062 51.1822 13.4951 51.429 13.9309 51.5261C13.9492 51.5287 13.965 51.5313 13.9807 51.5366L36.1174 56.6107C39.2227 57.3221 42.4174 56.4033 44.667 54.1511L55.4085 43.4069C57.1436 41.6718 58.0991 39.3644 58.0991 36.9101C58.0991 34.4557 57.1436 32.1509 55.4085 30.4132L32.2061 7.21082C31.1797 6.18445 29.5207 6.18445 28.4944 7.21082C27.4706 8.23457 27.4706 9.89882 28.4944 10.9226C29.0062 11.4344 29.0062 12.2666 28.4944 12.7784C27.9825 13.2903 27.1504 13.2903 26.6385 12.7784C24.5936 10.7336 24.5936 7.39982 26.6385 5.35495C28.6834 3.31007 32.0171 3.31007 34.062 5.35495L57.2644 28.5573C59.4982 30.7886 60.7241 33.7522 60.7241 36.9101C60.7241 40.068 59.4956 43.0316 57.2644 45.2628L46.5229 56.007C44.2706 58.2513 41.2886 59.4667 38.1964 59.4667Z"
                       fill="black" />
                   </svg>
-                  <h3 class="advantages-list__title">Качество</h3>
+                  <h3 class="advantages-list__title">Ответственность</h3>
                   <p class="advantages-list__description">
                     Мы заботимся о людях и планете. У нас безотходное производство и комфортные
                     условия труда.
